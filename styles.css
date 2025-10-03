@@ -1,0 +1,110 @@
+h1 {
+
+    color: white;
+
+}
+
+
+h2 {
+    text-align: left;
+    color: white;
+    font-size: 12px;
+
+}
+
+
+
+body {
+    background-color: black;
+}
+
+
+#wrapper {
+    background-color: silver;
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+}
+
+
+.navbar {
+    font-size: 25px;
+    /* we have to use the display flex with gap to make links nice and flush
+    text align right does not work with display flex so we have to justify the 
+    content to the end */
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+
+}
+
+.img1 {
+    margin: 100px;
+    border: 2px solid white;
+}
+
+
+.contact {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contactwrapper {}
+
+.bcontact {
+    background-color: lightblue;
+}
+
+.Message {
+    text-align: left;
+    margin-left: 200px;
+    font-size: 20px;
+
+}
+
+.email {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Lname {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Fname {
+    font-size: 20px;
+    text-align: center;
+}
+
+.Phone {
+    font-size: 20px;
+    text-align: center;
+}
+
+.homediv
+{
+
+    background-color: blue;
+    width: 700px;
+    height: 700px;
+   
+}
+
+
+
+.copyright
+
+{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+
+}
