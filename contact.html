@@ -7,9 +7,28 @@
     <title>Contact Form</title>
     <link rel="stylesheet" href="styles.css">
 
+
+
+    <!-- Links for the fluid design -->
+
+<link rel="stylesheet" type="text/css" href="laptop.css" media="screen and (min-width:1001px)">
+<link rel="stylesheet" type="text/css" href="tablet.css" media="screen and (min-width:601px) and (max-width:1000px)">
+<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width:600px)">
+
+
 </head>
 
+
+
 <body class="bcontact">
+
+    <nav class="navheader">
+
+
+        <a href="home.html">Home </a>
+        <a href="project.html">Project </a>
+        <a href="about.html">About </a>
+    </nav>
 
 
 
@@ -25,9 +44,7 @@
 
                 <label for="Fname">First Name:</label>
 
-                <input type="text" name="Fname" size="25" 
-                placeholder="i.e Jon"
-                required>
+                <input type="text" name="Fname" size="25" placeholder="i.e Jon" required>
 
             </p> <br>
 
@@ -35,9 +52,7 @@
 
                 <label for="Lname">Last Name:</label>
 
-                <input type="text" name="Lname" size="25"
-                placeholder="i.e Doe"
-                required>
+                <input type="text" name="Lname" size="25" placeholder="i.e Doe" required>
 
 
             </p> <br>
@@ -46,20 +61,15 @@
 
                 <label for="Email">Email:</label>
 
-                <input type="email" name="Email" size="30"
-                
-                placeholder="i.e jondoe@gmail.com"
-                
-                required>
+                <input type="email" name="Email" size="30" placeholder="i.e jondoe@gmail.com" required>
 
             </p> <br>
 
             <p class="Phone">
                 <label for="Phone"> Phone Number:</label>
 
-                <input type="tel" name="Phone" size="25"
-            
-                placeholder="i.e 647-786-5595" required>
+                <input type="tel" name="Phone" size="25" placeholder="i.e ###-###-####" required inputmode="numeric"
+                    pattern="\d{3}\d{3}\d{4}">
 
 
 
@@ -67,15 +77,15 @@
 
             <p class="Message">
 
-                
+
                 <label for="Message">Message:</label> <br>
 
                 <textarea name="Message" rows="15" cols="85"></textarea>
-                
+
             </p>
             <p>
-                <input type="submit" value="Submit" >
-                
+                <input type="submit" value="Submit">
+
             </p>
 
 
@@ -87,10 +97,10 @@
 
             </footer>
 
-        
+
         </form>
 
-        
+
 
 
 
