@@ -4,6 +4,7 @@
 <head>
     <title>About Page</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="video.js" defer></script>
 
 </head>
 
@@ -11,7 +12,7 @@
 
 <body class="aboutpg">
 
-    <nav class="aboutnavheader">
+    <nav class="navheader">
 
 
         <a href="home.html">Home </a>
@@ -26,15 +27,26 @@
 
             <img src="pfp.jpg" width="300px" height="300px" alt="profile picture">
 
-            <figcaption class="aboutcaption">Hi there, my name is Rashad.</figcaption>
+            <figcaption class="aboutcaption">Hi there, my name is Rashad. I'm own a Car Detailing Business and I'm a 2nd year student at Ontario Tech University studying Netowrking and IT Security.</figcaption>
 
 
         </figure>
 
         <aside class="aboutvideo">
 
-
-            <source src="video">
+        <video
+        id="video" 
+        width="300"
+        height="300"
+        controls 
+        autoplay muted loop
+        poster="videocover.jpeg"
+        preload="auto">
+            <source src="video.mp4" type="video/mp4">
+            <source src="on_record.ogv" type="video/ogv">
+        </video> 
+        <br> 
+        <button onclick="playPause()">Play or Pause the Video</button>
 
 
         </aside>
