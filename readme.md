@@ -25,3 +25,6 @@
 
 # validations
 -passed all checks fixed where errors popped up
+
+# link to github
+-https://rashadk27.github.io/Assignment1/
