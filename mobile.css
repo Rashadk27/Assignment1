@@ -1,0 +1,31 @@
+/* Wrapper container sets width and centers content */
+
+
+#wrapper {
+  width: 99%;
+  margin: 0 auto;
+}
+/* Left and right columns stacked vertically full width and minimum height */
+
+#left-column,
+#right-column {
+  float: none;
+  width: 100%;
+  min-height: 100px;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+}
+/* Project list container adds space below list */
+
+.project-list {
+  margin-bottom: 30px;
+}
+/* Individual project boxes stacked full width with minimum width and margin */
+/* maeks sure boxes dont flaot */
+.project {
+  float: none; 
+  width: 99%;
+  min-width: 100px;
+  margin: 1% auto;
+  box-sizing: border-box;
+}
